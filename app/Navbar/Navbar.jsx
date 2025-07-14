@@ -22,7 +22,9 @@ export default function Navbar() {
 
     return (<>
         <div className='fixed z-[9] bg-white/15  w-full h-20 flex items-center justify-between p-4 md:px-[120px] overflow-hidden'>
-            <h1 className='text-3xl text-white font-semibold shrink-0 '>Blue Nest</h1>
+            <Link href={'/'}>
+                <h1 className='text-3xl text-white font-semibold shrink-0 '>Blue Nest</h1>
+            </Link>
             <nav>
                 <ul className='hidden md:flex items-center gap-12'>
                     {links.map((link, i) => {
@@ -49,7 +51,7 @@ export default function Navbar() {
                     {links.map((link, i) => {
                         return (
                             <li key={i}>
-                                <Link className={pathName === link.path ? 'active-link ' : ""} href={link.path}> {link.name}</Link>
+                                <Link onClick={()=>setIsOpen(false)} className={pathName === link.path ? 'active-link ' : ""} href={link.path}> {link.name}</Link>
                             </li>
                         )
                     })}

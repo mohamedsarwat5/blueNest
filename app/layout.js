@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
           referrerPolicy="no-referrer"
         />
       </head>
-      <body className={``}>
+      <body className={`bg-indigo-600`}>
         <Navbar></Navbar>
         {children}
       </body>
