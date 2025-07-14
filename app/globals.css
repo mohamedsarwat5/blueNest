@@ -1,4 +1,7 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 .c {
   @apply p-4 md:px-[120px] overflow-hidden
