@@ -20,7 +20,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="fixed z-[9] shadow-md backdrop-blur-lg bg-sky-900/70 w-full h-20 flex items-center justify-between p-4 md:px-[120px] overflow-hidden">
+      <div className="fixed top-0 z-[9] shadow-md backdrop-blur-3xl  bg-black border-b border-white w-full h-20 flex items-center justify-between p-4 md:px-[120px] overflow-hidden">
         <Link href={"/"}>
           <h1 className="text-3xl text-white tracking-wider shrink-0 font-Playfair_Display ">
             Blue Nest
@@ -81,6 +81,7 @@ export default function Navbar() {
           <i className="fa-solid fa-xmark text-2xl text-white "></i>
         </button>
       </div>
+      {/* <div className=" h-20"></div> */}
     </>
   );
 }

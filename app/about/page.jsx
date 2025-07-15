@@ -16,9 +16,8 @@ export default function About() {
   return (
     <>
       <div className="min-h-[100dvh] about   ">
-        <div className=" md:h-24 h-[70px] "></div>
         <div className="c min-h-full ">
-          <div className="flex flex-col md:flex-row items-center gap-6 ">
+          <div className="flex flex-col-reverse md:flex-row items-center gap-6 ">
             <div className="md:w-1/2 flex ">
               <img className=" md:w-10/12" src="/Group 14.png" alt="" />
             </div>
@@ -42,7 +41,7 @@ export default function About() {
         </div>
         <div className="c !py-9 ">
           <div className="grid md:grid-cols-2 items-center gap-6 justify-center ">
-            <div className="flex flex-col gap-3 order-2 md:-order-1">
+            <div className="flex flex-col gap-3 ">
               <div className=" font-Playfair_Display mb-3 text-center md:text-left ">
                 <h3 className="text-[#626262] md:text-[24px] text-[19px] italic">
                   Elegance meets relaxation in every detail
@@ -51,7 +50,7 @@ export default function About() {
                   New Comfort Experience
                 </h2>
               </div>
-              <p className=" text-gray md:text-[24px] text-center">
+              <p className=" text-gray md:text-[24px] ">
                 Discover our newly renovated rooms designed to offer a blend of
                 modern elegance and relaxing comfort. Whether you’re traveling
                 for business or leisure, our spaces are tailored to make your

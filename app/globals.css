@@ -40,3 +40,8 @@
 img.img{
   @apply w-[400px] h-[500px] object-cover rounded-3xl
 }
+
+body{
+  padding-top: 80px;
+ @apply bg-sky-600
+}

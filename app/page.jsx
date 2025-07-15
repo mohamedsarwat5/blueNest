@@ -6,16 +6,17 @@ export default function page() {
   const imgs = ["/s.png", "/s2.png", "/s3.png"];
   return (
     <>
-      <div className="c pb-0 mb-0 min-h-[100dvh] w-full flex items-center relative bg-black/40">
+      <div className="c !pb-0 mb-0 min-h-[100dvh] w-full flex items-center relative bg-black/40 ">
         <video
           className="h-full w-full absolute inset-0 -z-10 object-cover object-center"
           autoPlay
           muted
           loop
           playsInline
+          poster="/vid.jpg"
           src="/lv_0_20250705183811.mp4"
         ></video>
-        <div className="flex flex-col text-white md:gap-7  gap-4 mt-20">
+        <div className="flex flex-col text-white md:gap-7  gap-4 ">
           <h2 className="md:text-5xl text-2xl t font-Playfair_Display font-black">
             Where Comfort Meets Elegance
           </h2>
@@ -42,7 +43,7 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div className="c !py-8 mt-5 flex flex-col gap-20 ">
+      <div className="c !py-8  flex flex-col-reverse md:gap-20 gap-8 bg-white ">
         <div className=" grid md:grid-cols-3 gap-5">
           {imgs.map((img, i) => {
             return (

@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
           referrerPolicy="no-referrer"
         />
       </head>
-      <body className={`${poppins.className} ${playfair.variable} `}>
+      <body className={`${poppins.className} ${playfair.variable}  `}>
         <Navbar></Navbar>
         {children}
       </body>
