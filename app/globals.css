@@ -7,7 +7,7 @@
   @apply p-4 md:px-[120px] overflow-hidden
 }
 
-.t{
+.t {
   @apply text-center md:text-left
 }
 
@@ -16,5 +16,27 @@
 }
 
 .link {
-  @apply text-white
+
+  @apply text-white relative
+}
+
+
+.link::after, .active-link::after {
+  content: '';
+  transition: all .3s ease-in-out;
+  @apply w-0 h-[2px] bg-white absolute -bottom-1 left-0
+}
+
+.link:hover::after, .active-link::after {
+  width: 100%;
+}
+
+.about{
+  background: url(../public/bg.png) no-repeat  ;
+  background-position: center;
+  background-size: cover;
+}
+
+img.img{
+  @apply w-[400px] h-[500px] object-cover rounded-3xl
 }
