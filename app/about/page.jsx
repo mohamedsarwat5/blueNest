@@ -51,7 +51,7 @@ export default function About() {
                   New Comfort Experience
                 </h2>
               </div>
-              <p className=" text-gray text-[24px] ">
+              <p className=" text-gray md:text-[24px] text-center">
                 Discover our newly renovated rooms designed to offer a blend of
                 modern elegance and relaxing comfort. Whether you’re traveling
                 for business or leisure, our spaces are tailored to make your
