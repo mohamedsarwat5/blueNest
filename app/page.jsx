@@ -1,7 +1,6 @@
 import React from "react";
 import About from "./about/page";
-import Image from "next/image";
-import { motion } from "framer-motion";
+
 
 export default function page() {
   const imgs = ["/s.png", "/s2.png", "/s3.png"];
